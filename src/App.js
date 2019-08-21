@@ -2,7 +2,8 @@ import React, {useState} from 'react';
 import './App.css';
 import data from './Data';
 
-import Form from './Components/Form'
+import Form from './Components/Form';
+import Members from './Components/Members';
 
 function App() {
   const [team, setTeam] = useState(data);
@@ -12,8 +13,9 @@ function App() {
 
   return (
     <div>
-      <h1>Something here.</h1>
+      <h1>Team Composition</h1>
       <Form addNewMember={addNewMember} />
+      <Members />
     </div>
   )
 }
