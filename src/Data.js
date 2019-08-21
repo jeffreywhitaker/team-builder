@@ -1,19 +1,19 @@
 const data = [
     {
-        Name: 'Jeff',
-        Birthday: 'June 5, 1989',
-        Email: 'jeff@jeff.com',
-        Role: 'Front End Engineer',
-        Status: 'Student',
-        Location: 'Oregon',
+        name: 'Jeffrey Whitaker',
+        birthday: 'June 5, 1989',
+        email: 'jeff@jeff.com',
+        role: 'Front End Engineer',
+        occupation: 'Student',
+        location: 'Oregon',
     },
     {
-        Name: 'Cameron',
-        Birthday: 'Unknown',
-        Email: 'cameron@neato.com',
-        Role: 'Designer',
-        Status: 'Student',
-        Location: 'Washington',
+        name: 'Cameron Alvarado',
+        birthday: 'Unknown',
+        email: 'mylittlepony@fun.com',
+        role: 'Mascot',
+        occupation: 'Opera Singer',
+        location: 'Washington',
     }
 ]
 

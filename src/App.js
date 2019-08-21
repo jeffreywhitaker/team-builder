@@ -15,7 +15,7 @@ function App() {
     <div>
       <h1>Team Composition</h1>
       <Form addNewMember={addNewMember} />
-      <Members />
+      <Members teamList={team} />
     </div>
   )
 }

@@ -26,12 +26,20 @@ export default function Form(props) {
                 value={member.name}
                 onChange={changeHandler}
             />
+            <label htmlFor="birthday">Member Birthday</label>
+            <input
+                type="text"
+                name="birthday"
+                placeholder="member birthday"
+                value={member.birthday}
+                onChange={changeHandler}
+            />
             <label htmlFor="email">Member Email</label>
             <input
                 type="text"
                 name="email"
                 placeholder="member email"
-                value="member.email"
+                value={member.email}
                 onChange={changeHandler}
             />
             <label htmlFor="role">Member Role</label>
@@ -42,6 +50,23 @@ export default function Form(props) {
                 value={member.role}
                 onChange={changeHandler}
             />
+            <label htmlFor="occupation">Member Occupation</label>
+            <input
+                type="text"
+                name="occupation"
+                placeholder="member occupation"
+                value={member.occupation}
+                onChange={changeHandler}
+            />
+            <label htmlFor="location">Member Location</label>
+            <input
+                type="text"
+                name="location"
+                placeholder="member location"
+                value={member.location}
+                onChange={changeHandler}
+            />
+            <button type="submit">Add Team Member</button>
         </form>
     )
 }
