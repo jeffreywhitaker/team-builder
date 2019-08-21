@@ -1,3 +1,22 @@
+.personContainer {
+    display: flex;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px dashed black;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.pageTitle {
+    text-align: center;
+}
+
 .person {
     background-color: gray;
     width: 20%;

@@ -17,7 +17,7 @@ export default function Form(props) {
     };
 
     return (
-        <form onSubmit={submitForm}>
+        <form className="form" onSubmit={submitForm}>
             <label htmlFor="name">Member Name</label>
             <input
                 type="text"

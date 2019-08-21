@@ -10,7 +10,7 @@ const data = [
     {
         name: 'Cameron Alvarado',
         birthday: 'Unknown',
-        email: 'mylittlepony@fun.com',
+        email: 'supernerd@dork.com',
         role: 'Mascot',
         occupation: 'Opera Singer',
         location: 'Washington',
