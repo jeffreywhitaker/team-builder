@@ -6,6 +6,7 @@ const data = [
         role: 'Front End Engineer',
         occupation: 'Student',
         location: 'Oregon',
+        id: 1,
     },
     {
         name: 'Cameron Alvarado',
@@ -14,6 +15,7 @@ const data = [
         role: 'Mascot',
         occupation: 'Opera Singer',
         location: 'Washington',
+        id: 2,
     }
 ]
 

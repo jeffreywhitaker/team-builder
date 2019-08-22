@@ -15,6 +15,7 @@ export default function Members(props) {
                             <p>Project Role: {person.role}</p>
                             <p>Occupation: {person.occupation}</p>
                             <p>Location: {person.location}</p>
+                            <button onClick={() => props.editMember(person)}>Edit</button>
                         </div>
                     </div>
                 )
